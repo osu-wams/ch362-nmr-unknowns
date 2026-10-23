@@ -1,0 +1,5 @@
+DU=/opt/data/m/ch535, USER=rodger, NAME=Un_54, EXPNO=1, PROCNO=1
+F1=7.624ppm, F2=7.015ppm, MI=2.13cm, MAXI=23.91cm, PC=1.000
+           #     ADDRESS            FREQUENCY         INTENSITY
+                           [Hz]        [PPM]
+     1     16083.8     2866.683       7.1642         9.96

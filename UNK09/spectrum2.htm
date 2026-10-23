@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html dir="ltr"><head>
+  
+  
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=ISO-8859-1">
+  <title>CH 362 Unknown 42</title>
+  <script type="text/javascript" src="../jsmol/jquery/jquery.js"></script>
+  <script type="text/javascript" src="../jsmol/js/JSmoljQueryExt.js"></script>
+  <script type="text/javascript" src="../jsmol/js/JSmolCore.js"></script>
+  <script type="text/javascript" src="../jsmol/js/JSmolApplet.js"></script>
+  <script type="text/javascript" src="../jsmol/js/JSmolApi.js"></script>
+  <script type="text/javascript" src="../jsmol/js/JSmolControls.js"></script>
+  <script type="text/javascript" src="../jsmol/js/j2sjmol.js"></script>
+  <script type="text/javascript" src="../jsmol/js/JSmol.js"></script>
+  <script type="text/javascript" src="../jsmol/js/JSmolMenu.js"></script>
+  <script type="text/javascript" src="../jsmol/js/JSmolJSV.js"></script>
+  
+  <script type="text/javascript">
+
+;(function() {
+
+jmol_isReady = function(applet) {
+        document.title = (applet._id + " is ready")
+        Jmol._getElement(applet, "appletdiv").style.border="1px solid blue"
+
+	}
+
+})();
+
+MSInfo = {
+        width: 800,
+        height: 400,
+        debug: false,
+        color: "0xC0C0C0",
+        j2sPath: "../jsmol/j2s",
+        disableJ2SLoadMonitor: true,
+        disableInitialConsole: true,
+        addSelectionOptions: false,
+        use: "HTML5",
+	coverImage: "",        // initial image instead of applet
+	coverScript: "",      // special script for click of cover image (otherwise equal to script)
+	deferApplet: false,                  // wait to load applet until click
+	deferUncover: true,                 // wait to uncover applet until script completed
+        readyFunction: null,
+        script: "load Mass.jdx; grid off"
+}
+HInfo = {
+        width: 800,
+        height: 400,
+        debug: false,
+        color: "0xC0C0C0",
+        j2sPath: "../jsmol/j2s",
+        disableJ2SLoadMonitor: true,
+        disableInitialConsole: true,
+        addSelectionOptions: false,
+        use: "HTML5",
+	coverImage: "",        // initial image instead of applet
+	coverScript: "",      // special script for click of cover image (otherwise equal to script)
+	deferApplet: false,                  // wait to load applet until click
+	deferUncover: true,                 // wait to uncover applet until script completed
+        readyFunction: null,
+        script: "load H.dx; grid off; zoom 10 0"
+}
+CInfo = {
+        width: 800,
+        height: 400,
+        debug: false,
+        color: "0xC0C0C0",
+        j2sPath: "../jsmol/j2s",
+        disableJ2SLoadMonitor: true,
+        disableInitialConsole: true,
+        addSelectionOptions: false,
+        use: "HTML5",
+	coverImage: "",        // initial image instead of applet
+	coverScript: "",      // special script for click of cover image (otherwise equal to script)
+	deferApplet: false,                  // wait to load applet until click
+	deferUncover: true,                 // wait to uncover applet until script completed
+        readyFunction: null,
+        script: "load C.dx; grid off"
+}
+COSYInfo = {
+        width: 800,
+        height: 800,
+        debug: false,
+        color: "0xC0C0C0",
+        j2sPath: "../jsmol/j2s",
+        disableJ2SLoadMonitor: true,
+        disableInitialConsole: true,
+        addSelectionOptions: false,
+        use: "HTML5",
+	coverImage: "",        // initial image instead of applet
+	coverScript: "",      // special script for click of cover image (otherwise equal to script)
+	deferApplet: false,                  // wait to load applet until click
+	deferUncover: true,                 // wait to uncover applet until script completed
+        readyFunction: null,
+        script: "load COSY.dx"
+}
+HSQCInfo = {
+        width: 800,
+        height: 800,
+        debug: false,
+        color: "0xC0C0C0",
+        j2sPath: "../jsmol/j2s",
+        disableJ2SLoadMonitor: true,
+        disableInitialConsole: true,
+        addSelectionOptions: false,
+        use: "HTML5",
+	coverImage: "",        // initial image instead of applet
+	coverScript: "",      // special script for click of cover image (otherwise equal to script)
+	deferApplet: false,                  // wait to load applet until click
+	deferUncover: true,                 // wait to uncover applet until script completed
+        readyFunction: null,
+        script: "load HSQC.dx; grid off"
+}
+HMBCInfo = {
+        width: 800,
+        height: 800,
+        debug: false,
+        color: "0xC0C0C0",
+        j2sPath: "../jsmol/j2s",
+        disableJ2SLoadMonitor: true,
+        disableInitialConsole: true,
+        addSelectionOptions: false,
+        use: "HTML5",
+	coverImage: "",        // initial image instead of applet
+	coverScript: "",      // special script for click of cover image (otherwise equal to script)
+	deferApplet: false,                  // wait to load applet until click
+	deferUncover: true,                 // wait to uncover applet until script completed
+        readyFunction: null,
+        script: "load HMBC.dx; grid off"
+}
+$(document).ready(function() {
+	  $("#jsvdiv1").html(Jmol.getJSVAppletHtml("MeOCH2CNIjsv",MeOCH2CNInfo));
+	  });
+
+  </script>
+
+</head><body style="direction: ltr;">
+
+<script type="text/javascript">
+                COSY = "COSY"
+                COSY = Jmol.getJSVApplet("COSY", COSYInfo);
+</script>
+</body></html>

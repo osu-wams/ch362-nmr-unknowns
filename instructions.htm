@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html dir="ltr"><head>
+  
+  
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=ISO-8859-1">
+  <title>JSpecView Instructions</title>
+<!-- CSS -->
+<link type="text/css" rel="stylesheet" href="https://sites.science.oregonstate.edu/~gablek/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sites.science.oregonstate.edu/~gablek/css_0PiGKjddAKpD3Uz9WX9NOm3M5hahPacf2O1vQgt5gYA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sites.science.oregonstate.edu/~gablek/css_eUrDHcagPXHKHsowRQrPbpyJCC1wb2aQgyULqskWB_Y.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sites.science.oregonstate.edu/~gablek/css_vNTq5N2DqkYjVp0u1KcGc7HKhBqlibcrkH7cGhkC7q0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sites.science.oregonstate.edu/~gablek/css_qTxDaCtVEenrMZPo3zcB1YSUH69LVFhb-SaQ2Dlu2bo.css" media="all" />
+  <link href='https://fonts.googleapis.com/css?family=Gudea:400,400italic,700' rel='stylesheet' type='text/css'>
+<link href='https://sites.science.oregonstate.edu/~gablek/menu.css' rel='stylesheet' type='text/css'>
+</head><body style="direction: ltr;">
+<h2>JSpecView Instructions</h2>
+<ol>
+	<li>The most important feature is that you can zoom in (horizontally and vertically), using a (left) mouse click-and-drag motion over the portion of the spectrum you wish to examine.  The arrows on the right of the spectrum can be clicked to increase or decrease the vertical scale.  Reset the zoom by right-clicking, selecting "Zoom," and "Reset Zoom."  There are also additional options.  You'll also note a heavy blue line with 3 dots on the top and right of the spectrum--these can be used to more precisely control the zoom and expansions.</li>
+	<li>The second important feature is to see the coordinates of the mouse.  Place the mouse on top of a peak, then look at the red numbers in the upper right hand corner of the shaded area.  This is the (x,y) coordinates of the mouse.  Usually you are interested mostly in the x coordinate.  Note that this will be much more precise than estimating from the scale.</li>
+	<li>In NMR spectra, you need to do at least two more things. First is integration.  Right-click, select "Integration."  A popup window appears; move this to one side so you can see.  Normally, take the default baseline offset (30) and Scale (50), though you can change these.  Click "Apply" to cut the integral regions.  If the peaks are too close to be separately integrated, zoom in, double-click on the red integral line, and then click & drag over the first peak to be integrated (it will turn red). Then repeat for other peaks in the region. Next, in the new table that appears in the popup, select one of the regions where you feel you know the number of protons responsible for the peak.  Click on "Normalize" and set the value to the appropriate number of protons (1, 2, 3...) and click on "OK."  You may close the popup window (X in the upper right corner).</li>
+	<li>Finally, pick peaks.  Right click, and select "Peaks." You will have to select the threshold to allow the system to identify the peaks you are interested in; you can click on the spectrum or type in a number for the minimum Y value.  The table has the shifts in ppm, in Hz, and the differences calculated in Hz.  These will not appear on the screen spectrum, but will be printed if you make a PDF file (below).  Hit "Apply"; you may close the popup if you wish.</li>
+	<li>One last option to save your work is to (right-click) "Print." A popup will appear asking for a file name; the PDF will be downloaded to your default location on the computer you are using. You may obviously print the PDF if you wish.  Note that you very probably want multiple expansions printed, particularly if a lot of peaks are identified.</li>
+	<li>A final useful interactive feature is "Measurements."  Right click again and select Measurements.  Double-(left)click on the first peak, move to the second peak and (left) click once. Do this as many times as you wish. (You want to move the mouse position vertically to make sure these do not overlap.)</li>
+</ol>
+You can <a href="https://sourceforge.net/projects/jmol/files/" target=_blank>download the Jmol package</a> which includes JSpecView to run on your computer.  Download links for the 1-D spectra are provided.	
+</body></html>
