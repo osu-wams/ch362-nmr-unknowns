@@ -169,9 +169,9 @@
 /UNK70/Un_70_COSY.dx
 /UNK70/Un_70_HMBC.dx
 /UNK70/Un_70_HSQC.dx
-/test/COSY.dx
-/test/UNK11_HMBC.dx
-/test/UNK11_HSQC.dx
+/UNK11/COSY.dx
+/UNK11/UNK11_HMBC.dx
+/UNK11/UNK11_HSQC.dx
 
 # Editor backups and OS files
 *~
