@@ -16,6 +16,10 @@ if (!window["java.registered"])
 		  ClazzLoader.loadZJar(Jmol._coreFiles[i], ClazzLoader.runtimeKeyClass);
 	//}
 		
+  // packed JSpecView class files (see build-jsmol-bundle.sh)
+  if (Jmol._jsvClasses)
+    ClazzLoader.jarClasspath(ClazzLoader.getJ2SLibBase() + "core/jsvclasses.js", Jmol._jsvClasses);
+
   if (Jmol._debugCode)
     return;
 
