@@ -95,7 +95,8 @@ FInfo = {
         deferApplet: false,                  // wait to load applet until click
         deferUncover: true,                 // wait to uncover applet until script completed
         readyFunction: null,
-        script: "load F.dx; grid off; zoom -102.9 -103.0"
+        // F.dx is missing from the source files, so it cannot be loaded:
+        // script: "load F.dx; grid off; zoom -102.9 -103.0"
 }
   </script>
 <script language="javascript" type="text/javascript">
@@ -168,6 +169,7 @@ function popitup(url) {
 <td>
 <h2><sup>19</sup>F NMR Spectrum (1-D)</h2>
 <a href="F.dx">Download spectrum file</a>
+<p style="color: #b00020;"><strong>Warning:</strong> the <sup>19</sup>F spectrum file (F.dx) is missing from both the original source files and this site, so the spectrum cannot be displayed or downloaded.</p>
 </td>
 </tr>
 <tr>
